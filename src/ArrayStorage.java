@@ -35,6 +35,7 @@ public class ArrayStorage {
         return null;
     }
 
+
     void delete(String uuid) {
         int nElems = storage.length;                    //количество элементов
         int j;                                          //счетчик цикла
